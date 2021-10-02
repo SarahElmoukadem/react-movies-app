@@ -63,7 +63,7 @@ if(!response.ok) {
   
   useEffect(() => {
     showMoviesHandler()
-  }, [])
+  }, [showMoviesHandler])
 
 
   return (
